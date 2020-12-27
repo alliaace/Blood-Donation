@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.dp{
+	width:250px;
+	height:250px;
+	background:#fff;
+	border-radius:100%;
+	margin:0 auto;
+}.dp .overlay{
+	width:250px;
+	height:250px;
+	background:#000;
+	border-radius:100%;
+	opacity:.3;
+	visibility:hidden;
+	color: #fff;
+	font-size:24px;
+	text-align:center;
+	cursor:pointer;
+	
+
+	
+}.overlay span{
+
+}
+.dp:hover .overlay{
+		visibility:visible;
+}
+input[type="text"],input[type="password"]{
+		border:none;
+	padding:2px 5px;
+	background:none;
+	color:#525252;
+	font-size:24px;
+	border-radius:3px;
+	display:inline-block;
+	text-align:right;
+
+}
+input[type="text"]:hover,input[type="text"]:focus,input[type="password"]:hover,input[type="password"]:focus{
+	border:2px solid #333;
+}
+td{
+	text-align:center
+}
+td>span{
+		color:#333;
+	font-size:28px;
+	font-weight:bold;
+	text-align:right;
+}
+button.but_red{
+background: -moz-linear-gradient(top, #d8545d 0%, #bc4042 100%);
+background: linear-gradient(to bottom, #d8545d 0%,#bc4042 100%);
+border:1px solid #CC2428;
+border-radius:3px;
+color:#fff;	
+}
+button.but_red:hover{
+box-shadow:1px 1px 2px #661315;
+}
+button.but_red:focus{
+box-shadow:0px -2px 2px #961D20;	
+}
+button{
+	padding:10px;
+	font-size:18px;
+}.passwordform{
+	display:inline-block; 
+	padding:50px 70px;
+	background:#fff;
+	position:absolute;
+	margin:0 auto; 
+	z-index:2;
+	top:20%;
+	border-rdius:5px;
+	left:30%;
+	right:30%;
+	
+}input[type="password"]{
+	background:#fff;
+	border:1px solid #555;
+	width:auto;
+	text-align:left; font-size:18px; padding:5px 10px;
+}.passwordoverlay{
+	height:100%;
+	width:100%;
+	opacity:.4;
+	z-index:1;
+	background:#000;
+	position:fixed;
+	top:0;
+	right:0;
+}

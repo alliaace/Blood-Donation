@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+margin:0;
+padding:0;
+overflow:auto;
+background:#eee;	
+display:block;
+font-family: 'Titillium Web', sans-serif;
+font-size:14px;
+}
+.containers{
+	padding:0;
+	background:	#fff;
+	border-bottom:2px solid #ccc;
+	border-right:1px solid #ccc;
+	overflow:auto;
+}
+div.header{
+	padding:0;
+	width:100%;
+	height:50px;
+}
+div#logo{
+	width:100px;
+	height:136px;
+	margin:0 auto;
+	margin-top:8%;
+	overflow:auto;
+	padding:2px;
+}
+.reg-box{
+	width:40%;
+	padding:5% 10%;
+	height:auto;
+	margin:0 auto;
+	margin-top:-5%;
+
+}
+input[type=text],input[type=password],select{
+	border:1px solid #999;
+	background:#fff;
+	border-radius:3px;
+	font-size:16px;
+	padding:7px 10px;
+	box-sizing:border-box;	
+	color:#333;
+	
+
+}
+.formFielddsDim{
+	 width:389px;
+	
+}
+input[type=text]:hover,input[type=password]:hover,select:hover,input[type=text]:focus,input[type=password]:focus,select:focus{
+	border:2px solid ;
+	border-color:#555!important ;
+}
+input[type=text]::placeholder,input[type=text]::placeholder{
+	color:#000;
+}
+
+p.reg-head{
+font-style:normal;
+color:#333;
+text-align:center;
+font-size:32px;
+margin:10px;
+
+}
+form,table, td,tr{
+margin:0 auto;
+padding:2px;
+box-sizing:border-box;	
+
+}
+div.footer{
+	width:40%;
+	padding:0;
+	height:auto;
+	margin:-10px auto;
+	box-sizing:border-box;	
+}
+a{
+color:#666;
+font-style:normal;
+text-decoration:none;
+
+}a:hover{
+color:#333;
+text-decoration:none;
+}
+.footer>p{
+text-align:right;
+color:#666;
+font-size:16px;	
+}
+button.but_red{
+background: -moz-linear-gradient(top, #d8545d 0%, #bc4042 100%);
+background: linear-gradient(to bottom, #d8545d 0%,#bc4042 100%);
+border:1px solid #CC2428;
+border-radius:3px;
+color:#fff;	
+}button.reg{
+padding:10px;
+width:390px;	
+font-size:16px;
+}
+button.but_red:hover{
+box-shadow:1px 1px 2px #661315;
+}
+button.but_red:focus{
+box-shadow:0px -2px 2px #961D20;	
+}button.but_blue{
+background: -moz-linear-gradient(top, #2892e2 0%, #527399 100%);
+background: linear-gradient(to bottom, #2892e2 0%,#527399 100%);
+border:1px solid #1C4E84;
+border-radius:3px;
+color:#fff;	
+}
+button.but_blue:hover{
+box-shadow:1px 1px 2px #25416B;
+}
+button.but_blue:focus{
+box-shadow:0px -2px 2px #25416B;	
+}
+.switchlink{
+font-size:16px;
+text-align:center;display:block;
+}.switchContainer{
+	
+}
